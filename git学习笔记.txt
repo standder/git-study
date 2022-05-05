@@ -1,0 +1,23 @@
+git 可以作为储存代码的仓库，可以通过git软件来管理不同版本与不同分支的代码
+
+git的基本操作
+
+1、全局初始化
+git config --global user.name "用户名称"
+git config --global user.email "用户邮箱"
+
+2、创建文件（linux上可以直接用touch，windows上就直接去文件目录创建吧）
+
+3、通过add命令将代码提交到暂存区
+git add 文件名
+
+4、利用commit命令使仓库文件达到准备交付状态（或者说是形成可以交付的本地文件）
+git commit -m  "备注"
+
+5、将仓库托管至远端
+git remote add origin（origin是仓库的远端名称） 远端网址
+
+git remote -v可以查看该项目的远端源
+
+git push origin mian(或者其他路径)
+最终完成通过git仓库托管代码的上传
