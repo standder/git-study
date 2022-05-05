@@ -21,3 +21,6 @@ git remote -v可以查看该项目的远端源
 
 git push origin mian(或者其他路径)
 最终完成通过git仓库托管代码的上传
+
+本地仓库建立完成后就可以通过push命令直接上传至github
+但是从github上调取仓库最好直接使用clone命令
